@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>To-Do List</title>
+</head>
+<body>
+
+<div class="TextField">
+<input type="text" name="title" id="title">
+<br />
+<textarea name="description" id=description rows="8" cols="40"></textarea>
+</div>
+
+<div class="buttons">
+<button type="submit" id="button">Add to List</button><button type="submit" onclick="ClearAll()">Clear</button>
+
+</div>
+
+
+<!-- for Header of Table-->
+<table border="1px" >
+  <tr>
+    <th>No.</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Action</th>
+  </tr>
+  
+  <pre>
+    
+  </pre>
+  
+  <!--for Item -->
+  <table id="table" border="1">
+  </table>
+
+
+<script src="main.js">main.js</script>
+</body>
+</html>
